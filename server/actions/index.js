@@ -4,6 +4,7 @@
 "use strict";
 
 module.exports = function(app){
-    app.actions = {};
-
+    app.actions = {
+        detection : require('./detection')(app)
+    };
 };

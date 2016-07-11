@@ -5,6 +5,7 @@
 
 module.exports = function(app){
 
-    //app.use("/api/", app.middlewares.errorHandler());
+    app.use('/api/detection', require('./detection')(app));
+    app.use("/api/", app.middlewares.errorHandler);
 
 };
