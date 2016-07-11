@@ -1,0 +1,1 @@
+{  "title": "Node Server API Documentation",  "name": "iot-project",  "version": "1.0.0",  "description": "Node Server for IOT Protocol",  "sampleUrl": false,  "apidoc": "0.2.0",  "generator": {    "name": "apidoc",    "time": "2016-07-11T20:47:51.906Z",    "url": "http://apidocjs.com",    "version": "0.15.1"  }}

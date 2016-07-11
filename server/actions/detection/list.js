@@ -10,7 +10,8 @@ module.exports = function(app) {
      * @apiGroup Detection
      *
      * @apiVersion 1.0.0
-     * @apiParam {String} sort       Query parameter
+     * @apiParam {String} sort       brightness or detection_date Query parameter
+     * @apiParam {String} order      asc or desc                  Query parameter
      *
      * @apiDescription Allow to list all detections.
      *
