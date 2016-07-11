@@ -6,7 +6,6 @@
 module.exports = function(app){
     return {
         detect:     require('./detect')(app),
-        //list:       require('./list')(app),
-        //show:       require('./show')(app),
+        list:       require('./list')(app)
     };
 };

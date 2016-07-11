@@ -13,5 +13,9 @@ module.exports = function(app){
         app.actions.detection.detect
     );
 
+    router.get('/all',
+        app.actions.detection.list
+    );
+
     return router;
 };

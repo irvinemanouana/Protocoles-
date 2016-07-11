@@ -7,7 +7,7 @@ var mongoose = require('mongoose');
 
 module.exports = function(app){
     app.mongoose = mongoose.connect(app.configs.database.uri);
-    //app.mongoose.Promise = global.Promise;
+    app.mongoose.Promise = global.Promise;
     global.PromisifyAll(app.mongoose);
 
     app.models = {};
