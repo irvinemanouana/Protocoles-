@@ -14,7 +14,7 @@ var express = require('express'),
 }());
 
 (function start() {
-    app.listen(app.configs.server.port, app.configs.server.adress, setup());
+    app.listen(process.env.PORT ||app.configs.server.port, app.configs.server.adress);
 }());
 
 function setup() {
